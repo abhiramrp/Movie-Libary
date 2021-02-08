@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Returns
+{% endblock %}
+
+{% block main %}
+
+    <h1> Returns </h1>
+
+    <form action="/returns" method="post">
+
+
+        {% for movie in htmltitles %}
+            <input name="movietitles" type="checkbox" value="{{ movie[0] }}"> {{ movie[0] }} ({{ movie[1] }})
+            <br>
+        {% endfor %}
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+{% endblock %}

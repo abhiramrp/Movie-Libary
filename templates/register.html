@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+
+    <h1> Register </h1>
+
+    <form action="/register" method="post">
+
+        <label for="uname">Username</label>
+        <input autocomplete="off" autofocus name="username" id="uname" placeholder="no spaces" type="text">
+
+        <br>
+
+        <label for="pword">Password</label>
+        <input autocomplete="off" autofocus name="password" id="pword" placeholder="no spaces" type="password">
+
+        <br>
+
+        <label for="rpword">Repeat Password</label>
+        <input autocomplete="off" autofocus name="rpassword" id="rpword" placeholder="must match password above" type="password">
+
+        <br>
+
+
+        <input type="submit" value="Register">
+
+    </form>
+
+{% endblock %}

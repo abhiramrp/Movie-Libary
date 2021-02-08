@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Error
+{% endblock %}
+
+{% block main %}
+    {{ message }} 
+    
+    <br>
+    
+    <button onclick="goBack()">Try Again</button>
+    
+    <script>
+    
+    function goBack() {
+        window.history.back();
+        
+    }
+</script>
+    
+{% endblock %}
