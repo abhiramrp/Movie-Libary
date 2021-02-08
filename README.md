@@ -10,7 +10,7 @@ This database has two tables - `users` and `movies`. `users` include a primary i
 The css file in static is taken and referred from pset 8 finances assignment from 2020.
 
 [templates](templates)
-- [layout.html](layout.html)
+- [layout.html](templates/layout.html)
     Most of the document is taken and referred from pset 8 finances assignment from 2020. The `checkout` and `returns` buttons in the menu are used for the circulation of iMDb content. The  `login`, `register`, and `logout` are used for users' accounts. I have posted links to my bio and iMDb website in the footer.
 - [homepage.html](templates/homepage.html)
     This webpage is the homepage and it displays an intro of the website and project. Users without an account can access this webpage. Users with account will be directed to [index.html](templates/index.html)
