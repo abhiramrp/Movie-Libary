@@ -1,6 +1,6 @@
 # iMDb Movie Library
 #### Video Demo:  [https://www.youtube.com/watch?v=ukMxIYb31A0](https://www.youtube.com/watch?v=ukMxIYb31A0).
-#### Description: This application allows users to checkout movies and other diigital content of iMDb.
+#### Description: This application allows users to checkout movies and other digital content of iMDb.
 
 [imdb.db](imdb.db)
 This database has two tables - `users` and `movies`. `users` include a primary integer key of `userid`, a text of `username`, and hash text password of `hash`. The hash is used for safety and confidentiality of passwords.
